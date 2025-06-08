@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        .divbox{
+            height: 150px;
+            width: 150px;
+            
+            border: solid blueviolet;
+        }
+        .divbox{
+            height: 150px;
+            width: 150px;
+            
+            border: solid blueviolet;
+        }
+        .divbox{
+            height: 150px;
+            width: 150px;
+            
+            border: solid blueviolet;
+        } 
+    </style>
+</head>
+<body>
+    <div>
+    <div class="divbox"> 
+        <h1>A</h1>
+    </div>
+  
+    <button onclick="red('red')">red</button>
+    <div class="divbox"> <h1>B</h1></div>
+    <button onclick="yellow('yellow')">yellow</button>
+    <div class="divbox"> <h1>C</h1></div>
+    <button  onclick="green('green')">green</button>
+</div>
+
+    <script>
+function red(val){
+    document.getElementsByClassName('divbox')[0].style.backgroundColor=val;
+}
+function yellow(val){
+    document.getElementsByClassName('divbox')[1].style.backgroundColor=val;
+}
+function green(val){
+    document.getElementsByClassName('divbox')[2].style.backgroundColor=val;
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<center>
+<body>
+    <div>
+    <h1 id="count">0</h1>
+    
+    <button onclick="inc()">INCRESE</button>
+    <button onclick="dec()">DECRESE</button>
+    <BUTTON onclick="res()">RESET</BUTTON>
+
+</div>
+
+    <SCRIPT>
+       
+   let counter=document.getElementById("count");
+   
+   let count=0;
+   function inc(){
+    count++;
+    counter.innerHTML=count;
+   }
+   function dec(){
+    count--;
+    counter.innerHTML=count;
+   }
+   function res(){
+    count=0;
+    counter.innerHTML=0;
+   }
+   
+
+
+
+    </SCRIPT>
+    </center>
+</body>
+</html>

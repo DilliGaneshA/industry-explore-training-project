@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+
+.calculator{
+    align-items: center;
+    width: 200px;
+    background-color:aqua;
+    border-radius: 15px;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+h1{
+    color:black;
+}
+#display{
+ width:85%;
+ padding: 5px;
+ align-items: center;
+ margin-bottom: 10px;   
+}
+.btn{
+   width: 40px;
+   height:40px;
+   border-radius: 50px;
+   border:0;
+   margin-bottom: 10px;
+   
+}

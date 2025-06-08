@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clk btn change color</title>
+    <style>
+        #divbox{
+            height: 350px;
+            width: 400px;
+            
+            border: solid blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="divbox"></div>
+    <button onclick="changeColor('red')">red</button>
+    <button  onclick="changeColor('orange')">orange</button>
+    <button  onclick="changeColor('green')">green</button>
+    <button  onclick="changeColor('blue')">blue</button>
+</body>
+<script>
+function changeColor(val){
+    document.getElementById('divbox').style.backgroundColor=val;
+}
+</script>
+</html>
