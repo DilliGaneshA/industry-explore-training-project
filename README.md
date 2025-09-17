@@ -17,4 +17,4 @@ It is designed to showcase company profiles, services, and contact details with 
 ## ⚙️ Installation & Setup  
 1. Clone the repository:  
    ```bash
-   git clone 
+   git clone https://github.com/DilliGaneshA/industry-explore-training-project.git
